@@ -15,20 +15,29 @@ def make_a_file():
             print("saved url:")
         url_file.close()
 
-make_a_file()
-
 def search():
     with open(path_with_file) as search_urls:
         for line in search_urls:
             start = 'start ' + line
             os.system(start)
 
+def rep():
+    make_a_file()
+    ask_for_search = input('\nDo you require immediat search ? [y,n]\t')
+    ask_ = ask_for_search.lower()
+    if ask_ == 'y':
+        search()
+    else:
+        exit()
 
+    repeat = input('Do you want to repeat ? [y,n]')
+    repeat_ = repeat.lower()
 
-ask_for_search = input('\nDo you require immediat search ? [y,n]\t')
-ask_ = ask_for_search.lower()
-if ask_ == 'y':
-    search()
-else:
-    exit()
+    if repeat_ == "y":
+        rep()
+    else:
+        exit()
+
+rep()
+
         
