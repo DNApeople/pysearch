@@ -12,6 +12,8 @@ STEPS:
 
 It's exhaustin copy pasting every interesting url going back and forth.
 so this will just open it in a buntch of new tabs,
-you just have to look through them and close earch tab. (ammount of urls you past is you're disire, I fell go with 15 per round)
+you just have to look through them and close earch tab.
+there is a repeat option if you've got a bulk of urls and can't finish it at one blow, (Do yo want to repeat ? [y,n] --- press y for yes)
+(ammount of urls you past is you're disire, I feel goo with 15 per round)
 
 I code theas for fun/making life easier, have fun and make you're own.
